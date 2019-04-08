@@ -52,8 +52,46 @@
 		</style>
 	</head>
 	<body>
-        <h1 align="center">Ngajaran Nyieun Project Duudee</h1>
-		<hr>
+		   <ul>
+                        <li><a href=""><font color="darkorange">HOME</font></a></li>>
+                        <li>
+                            <form name="Tick">
+            <input type="text" size="12" name="Clock">
+        </form>
+        <script type="text/javascript">
+            function show()
+            {
+                var Digital=new Date()   
+                var hours=Digital.getHours()
+                var minutes=Digital.getMinutes()
+                var seconds=Digital.getSeconds()
+                var dn="AM"
+                if (hours>12){
+                    dn="PM"
+                    hours=hours-12
+                }
+                if (hours==0)
+                    hours=12
+                if (minutes<=9)
+                    minutes="0"+minutes
+                if (seconds<=9)
+                    seconds="0"+seconds
+                document.Tick.Clock.value=
+                    hours+":"+minutes+":"+seconds+" "+dn
+                setTimeout("show()",1000) 
+            }
+            show()
+        </script>
+        <script type="text/javascript">
+        var hari_ini= new Date()
+        var tahun = hari_ini.getYear()
+        var bulan = hari_ini.getMonth()+1
+        var tanggal = hari_ini.getDate()
+        document.write("Tanggal: ")
+        document.write(tanggal+"/"+bulan+"/"+tahun) 
+        </script>
+                        </li>
+                    </ul>
         <form>
             <table>
             <tr>
