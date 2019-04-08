@@ -118,8 +118,8 @@
             }
             show()
         </script>
-                        </li>
-                    </ul>
+            </ul>
+            
 			</header>
 		<section>
         <form>
