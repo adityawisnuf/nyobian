@@ -3,19 +3,48 @@
 		<title>Project</title>
 		<style>
 				body {
-					background-color: aqua;
+					background-color: whitesmoke;
 					font-family: sans-serif;
 				}
 
-				h1 {
-					background-color: red;
-					padding: 15px;
-					border: 3px solid black;
-					border-radius: 15px;
+				header{
+					background-color: #123;
+					color: white;
+					border-bottom: orange 5px outset;
+					min-height: 70px;
 				}
 
-				form {
+				header form{
+					float: left;
+					padding: 0 20px 0 20px;
+					margin-top: 15px;
+				}
+
+				header li{
+					float: right;
+					display: inline;
+					padding: 0 20px 0 20px;
+					margin-top: 45px;
+				}
+
+				header a{
+					text-decoration: none;
+					color: gold;
+					text-transform: uppercase;
+				}
+
+				header a:hover{
+					color: gray;
+					font-weight: bold;
+				}
+
+				section{
+					height: 66%;
+				}
+
+				section form {
 					padding: 25px;
+					margin-top: 30px;
 					margin-left: 24%;
 					border: 5px solid black;
 					border-radius: 20px;
@@ -49,15 +78,22 @@
 					font-family: sans-serif;
 					color: white;
 				}
+
+				footer{
+					background-color: #123;
+					min-height: 70px;
+					color: white;
+				}
 		</style>
 	</head>
 	<body>
-		   <ul>
-                        <li><a href=""><font color="darkorange">HOME</font></a></li>>
-                        <li>
-                            <form name="Tick">
-            <input type="text" size="12" name="Clock">
-        </form>
+		<header>
+			<ul>
+                <li><a href=""><font>HOME</font></a></li>
+                <li><a href=""><font>Zulbejul</font></a></li>
+					<form class="jam" name="Tick">
+						<input type="text" size="12" name="Clock">
+					</form>
         <script type="text/javascript">
             function show()
             {
@@ -92,6 +128,10 @@
         </script>
                         </li>
                     </ul>
+            </ul>
+
+			</header>
+		<section>
         <form>
             <table>
             <tr>
@@ -125,7 +165,7 @@
             </tr>
         </table>
         </form>
-		<hr>
+		</section>
 		<footer>
 				<p align="center">Built by &copy Adit, Zul, Lukman, Soleh</p>
 		</footer>
