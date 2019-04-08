@@ -61,7 +61,7 @@
         <script type="text/javascript">
             function show()
             {
-                var Digital=new Date()   
+                var Digital=new Date()
                 var hours=Digital.getHours()
                 var minutes=Digital.getMinutes()
                 var seconds=Digital.getSeconds()
@@ -78,7 +78,7 @@
                     seconds="0"+seconds
                 document.Tick.Clock.value=
                     hours+":"+minutes+":"+seconds+" "+dn
-                setTimeout("show()",1000) 
+                setTimeout("show()",1000)
             }
             show()
         </script>
@@ -88,7 +88,7 @@
         var bulan = hari_ini.getMonth()+1
         var tanggal = hari_ini.getDate()
         document.write("Tanggal: ")
-        document.write(tanggal+"/"+bulan+"/"+tahun) 
+        document.write(tanggal+"/"+bulan+"/"+tahun)
         </script>
                         </li>
                     </ul>
