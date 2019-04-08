@@ -1,6 +1,55 @@
 <html>
 	<head>
 		<title>Project</title>
+		<style>
+				body {
+					background-color: aqua;
+					font-family: sans-serif;
+				}
+
+				h1 {
+					background-color: red;
+					padding: 15px;
+					border: 3px solid black;
+					border-radius: 15px;
+				}
+
+				form {
+					padding: 25px;
+					margin-left: 24%;
+					border: 5px solid black;
+					border-radius: 20px;
+					width: 50%;
+					background-color: darkorange;
+				}
+
+				td {
+					padding: 5px;
+				}
+
+				input[type="text"] {
+					background-color: yellow;
+					border: 2px solid black;
+					border-radius: 7px;
+					padding: 10px;
+				}
+
+				textarea {
+					background-color: yellow;
+					border: 2px solid black;
+					border-radius: 7px;
+				}
+
+				input[type="submit"] {
+					background-color: blue;
+					border: 2px solid black;
+					padding: 10px;
+					width: 100px;
+					margin-right: 100px;
+					font-family: sans-serif;
+					color: white;
+				}
+		</style>
 	</head>
 	<body>
         <h1 align="center">Ngajaran Nyieun Project Duudee</h1>
