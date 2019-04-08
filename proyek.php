@@ -4,6 +4,7 @@
 	</head>
 	<body>
         <h1 align="center">Ngajaran Nyieun Project Duudee</h1>
+		<hr>
         <form>
             <table>
             <tr>
@@ -37,5 +38,9 @@
             </tr>
         </table>
         </form>
+		<hr>
+		<footer>
+				<p align="center">Built by &copy Adit, Zul, Lukman, Soleh</p>
+		</footer>
 	</body>
 </html>
